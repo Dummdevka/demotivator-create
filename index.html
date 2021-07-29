@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create your own demotivator</h1>
+    <form action="create.php" method="POST" enctype="multipart/form-data">
+        <label for="picture">Choose a picture</label>
+        <input type="file" id="picture" name="picture">
+        <label for="upper-text">upper-text:</label>
+        <input type="text" name="uppertext" id="upper-text">
+        <label for="under-text">under-text:</label>
+        <input type="text" name="undertext" id="under-text">
+        <input type="submit" name="submit" value="create">
+    </form>
+</body>
+</html>
